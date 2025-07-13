@@ -30,10 +30,7 @@
 
   .logo-btn {
     margin: 10px auto;
-    display: block;
     width: 140px;
-    height: 40px;
-    font-size: 14px;
   }
 
   .action-section {
@@ -42,6 +39,10 @@
     margin: 20px;
   }
 
+  .action-btn{
+    margin-top: 40px;
+    width: 150px;
+  }
   .action-left {
     margin: 0;
     text-align: center;
@@ -54,6 +55,7 @@
   .action-subtitle {
     font-size: 14px;
     width: auto;
+    margin: -5px 0 -5px;
   }
 
   .action-img img {
@@ -148,13 +150,17 @@
     width: 100%;
   }
 
-  .input-type,
-  .message-type {
+  .input-type{
     width: 100%;
+    max-width: 300px;
     height: auto;
-    margin: 10px 0;
   }
 
+  .message-type {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px 0;
+  }
   .submit-get-btn {
     width: 100%;
     margin: 20px 0;
