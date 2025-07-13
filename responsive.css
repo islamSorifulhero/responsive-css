@@ -1,160 +1,183 @@
 @media screen and (max-width: 576px) {
-    .header{
-        height: 305px;
-    }
-    .nav-logo{
-        margin: 50px 10px 50px;
-        font-size: 24px;
-    }
-    .nav-btn{
-        margin: 50px 10px 50px;
-        width: 100px;
-        height: 38px;
-        font-size: 12px;
-    }
-    .logo-template{
-        font-size: 24px;
-        margin: 40px 60px 30px;
-    }
-    .logo-btn{
-        margin: auto;
-        display: block;
-    }
-    main{
-        
-    }
-    .action-section{
-        flex-direction: column;
-        margin: -135px 0px 0px -90px;
-    }
-    .action-btn{
-        width: 110px;
-        font-size: 10px;
-        margin-left: 0;
-    }
-    .action-left{
-        margin-top: 100px;
-    }
-    .action-title{
-        font-size: 32px;
-    }
-    .action-subtitle{
-        font-size: 14px;
-    }
-    .action-img img{
-        margin-top: -220px;
-        margin-left: 250px;
-        width: 400px;
-        height: 270px;
-    }
-    /* production useers*/
-    .production-users{
-        margin: 30px 10px 0;
-        padding: 5px;
-        height: 190px;
-    }
-    .porduction-title{
-        font-size: 25px;
-    }
-    .production-data h1{
-        font-size: 60px;
-        margin-top: -10px;
-        margin-bottom: -15px;
-    }
-    .production-data p{
-        font-size: 15px;
-    }
-    /* challenging-section*/
-    .feedback-section{
-        margin-top: 30px;
-    }
-    .feedback-section h3{
-        font-size: 22px;
-    }
-    .feedback-users-details{
-        width: 370px;
-        gap: 10px;
-        margin-left: -100px;
-    }
-    .users-name{
-        gap: 8px;
-    }
-    .users-name img{
-        width: 30px;
-        height: 30px;
-    }
-    .users-name h5{
-        font-size: 5px;
-        margin-top: 10px;
-    }
-    .users-name p{
-        font-size: 5px;
-        margin-top: -8px;
-    }
-    .reviewer-section{
-        padding: 10px;
-    }
-    .reviewer-section img{
-        width: 15px;
-        height: 20px;
-    }
-    .reviewer-section h4{
-        font-size: 14px;
-        margin-top: 20px;
-    }
-    .reviewer-section p{
-        font-size: 10px;
-    }
-    .button-hover{
-        margin-top: -90px;
-    }
-    /* better section*/
-    .better-section{
-        margin: 50px 0px 0px;
-    }
-    .better-section h1{
-        font-size: 30px;
-    }
-    .better-section p{
-        margin-top: -10px;
-    }
-    .better-btn{
-        margin-top: 15px;
-        font-size: 11px;
-    }
-    .better-section img{
-        margin-top: -10px;
-        width: 400px;
-        height: 230px;
-    }
-    /*touch section*/
-    .touch-section{
-        flex-direction: column;
-    }
-    .section-title{
-        font-size: 37px;
-        margin-top: -10px;
-    }
-    .label-title{
-        font-size: 13px;
-    }
-    .label-input{
-        margin-top: -130px;
-    }
-    .submit-get-btn{
-        margin-top: 70px;
-        margin-left: 63px;
-    }
-    /*foooter*/
-    .footer-section{
-        margin: 40px 30px 20px;
-    }
-    .footer-title h1{
-        font-size: 50px;
-        margin-top: -30px;
-    }
-    .footer-title p{
-        font-size: 13px;
-        margin-top: -20px;
-    }
+
+  .header {
+    height: auto;
+    background-size: cover;
+    padding: 20px;
+  }
+
+  .logo {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-logo {
+    margin: 20px 0;
+    font-size: 28px;
+  }
+
+  .nav-btn {
+    margin: 10px 0;
+    width: 120px;
+    height: 40px;
+    font-size: 14px;
+  }
+
+  .logo-template {
+    font-size: 30px;
+    margin: 20px;
+  }
+
+  .logo-btn {
+    margin: 10px auto;
+    display: block;
+    width: 140px;
+    height: 40px;
+    font-size: 14px;
+  }
+
+  .action-section {
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px;
+  }
+
+  .action-left {
+    margin: 0;
+    text-align: center;
+  }
+
+  .action-title {
+    font-size: 28px;
+  }
+
+  .action-subtitle {
+    font-size: 14px;
+    width: auto;
+  }
+
+  .action-img img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .production-users {
+    margin: 20px;
+    padding: 20px;
+    height: auto;
+  }
+
+  .porduction-title {
+    font-size: 24px;
+  }
+
+  .production-data {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .production-data h1 {
+    font-size: 50px;
+  }
+
+  .production-data p {
+    font-size: 14px;
+  }
+
+  .feedback-section {
+    margin: 20px;
+  }
+
+  .feedback-section h3 {
+    font-size: 24px;
+  }
+
+  .feedback-users-details {
+    flex-direction: column;
+  }
+
+  .reviewer-section {
+    margin-bottom: 20px;
+  }
+
+  .button-hover {
+    margin: 20px auto;
+    display: block;
+    width: 150px;
+  }
+
+  .better-section {
+    margin: 20px;
+  }
+
+  .better-section h1 {
+    font-size: 30px;
+  }
+
+  .better-section p {
+    font-size: 14px;
+  }
+
+  .better-btn {
+    width: 150px;
+    height: 40px;
+    margin: 10px auto;
+    display: block;
+  }
+
+  .better-section img {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+
+  .touch-section {
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px;
+  }
+
+  .section-title {
+    font-size: 32px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .label-input {
+    width: 100%;
+  }
+
+  .input-type,
+  .message-type {
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+  }
+
+  .submit-get-btn {
+    width: 100%;
+    margin: 20px 0;
+  }
+
+  .footer-section {
+    margin: 40px 20px;
+  }
+
+  .footer-title h1 {
+    font-size: 40px;
+  }
+
+  .footer-title p {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+
+  .footer-links ul {
+    flex-direction: column;
+    gap: 10px;
+    padding: 0;
+    text-align: center;
+  }
+
 }
