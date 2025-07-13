@@ -1,0 +1,160 @@
+@media screen and (max-width: 576px) {
+    .header{
+        height: 305px;
+    }
+    .nav-logo{
+        margin: 50px 10px 50px;
+        font-size: 24px;
+    }
+    .nav-btn{
+        margin: 50px 10px 50px;
+        width: 100px;
+        height: 38px;
+        font-size: 12px;
+    }
+    .logo-template{
+        font-size: 24px;
+        margin: 40px 60px 30px;
+    }
+    .logo-btn{
+        margin: auto;
+        display: block;
+    }
+    main{
+        
+    }
+    .action-section{
+        flex-direction: column;
+        margin: -135px 0px 0px -90px;
+    }
+    .action-btn{
+        width: 110px;
+        font-size: 10px;
+        margin-left: 0;
+    }
+    .action-left{
+        margin-top: 100px;
+    }
+    .action-title{
+        font-size: 32px;
+    }
+    .action-subtitle{
+        font-size: 14px;
+    }
+    .action-img img{
+        margin-top: -220px;
+        margin-left: 250px;
+        width: 400px;
+        height: 270px;
+    }
+    /* production useers*/
+    .production-users{
+        margin: 30px 10px 0;
+        padding: 5px;
+        height: 190px;
+    }
+    .porduction-title{
+        font-size: 25px;
+    }
+    .production-data h1{
+        font-size: 60px;
+        margin-top: -10px;
+        margin-bottom: -15px;
+    }
+    .production-data p{
+        font-size: 15px;
+    }
+    /* challenging-section*/
+    .feedback-section{
+        margin-top: 30px;
+    }
+    .feedback-section h3{
+        font-size: 22px;
+    }
+    .feedback-users-details{
+        width: 370px;
+        gap: 10px;
+        margin-left: -100px;
+    }
+    .users-name{
+        gap: 8px;
+    }
+    .users-name img{
+        width: 30px;
+        height: 30px;
+    }
+    .users-name h5{
+        font-size: 5px;
+        margin-top: 10px;
+    }
+    .users-name p{
+        font-size: 5px;
+        margin-top: -8px;
+    }
+    .reviewer-section{
+        padding: 10px;
+    }
+    .reviewer-section img{
+        width: 15px;
+        height: 20px;
+    }
+    .reviewer-section h4{
+        font-size: 14px;
+        margin-top: 20px;
+    }
+    .reviewer-section p{
+        font-size: 10px;
+    }
+    .button-hover{
+        margin-top: -90px;
+    }
+    /* better section*/
+    .better-section{
+        margin: 50px 0px 0px;
+    }
+    .better-section h1{
+        font-size: 30px;
+    }
+    .better-section p{
+        margin-top: -10px;
+    }
+    .better-btn{
+        margin-top: 15px;
+        font-size: 11px;
+    }
+    .better-section img{
+        margin-top: -10px;
+        width: 400px;
+        height: 230px;
+    }
+    /*touch section*/
+    .touch-section{
+        flex-direction: column;
+    }
+    .section-title{
+        font-size: 37px;
+        margin-top: -10px;
+    }
+    .label-title{
+        font-size: 13px;
+    }
+    .label-input{
+        margin-top: -130px;
+    }
+    .submit-get-btn{
+        margin-top: 70px;
+        margin-left: 63px;
+    }
+    /*foooter*/
+    .footer-section{
+        margin: 40px 30px 20px;
+    }
+    .footer-title h1{
+        font-size: 50px;
+        margin-top: -30px;
+    }
+    .footer-title p{
+        font-size: 13px;
+        margin-top: -20px;
+    }
+}
