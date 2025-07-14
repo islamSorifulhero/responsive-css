@@ -1,3 +1,4 @@
+/*mobile fon responsive*/
 @media screen and (max-width: 576px) {
 
   .header {
@@ -189,3 +190,16 @@
   }
 
 }
+
+/* vivo fon a responsive */
+
+/* @media screen and (max-width: 768px) {
+  .header{
+  }
+  .logo{
+    margin: auto;
+  }
+  .nav-logo{
+    font-size: 30px;
+  }
+} */
