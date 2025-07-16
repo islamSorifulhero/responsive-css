@@ -110,7 +110,7 @@
   }
 
   .logo-template {
-    font-size: 36px;
+    font-size: 48px;
     margin: 20px;
   }
 
@@ -128,23 +128,24 @@
   .action-section {
     flex-direction: column;
     gap: 30px;
-    margin: 20px;
+    margin: 0px auto;
     text-align: center;
   }
 
   .action-btn{
     margin: 50px auto;
+    width: 280px;
   }
   .action-left {
     margin: 0;
   }
 
   .action-title {
-    font-size: 32px;
+    font-size: 52px;
   }
 
   .action-subtitle {
-    font-size: 16px;
+    font-size: 20px;
     width: auto;
   }
 
@@ -158,6 +159,7 @@
     margin: 40px 20px;
     padding: 20px;
     height: auto;
+    width: auto;
   }
 
   .porduction-title {
@@ -184,6 +186,7 @@
 
   .feedback-section h3 {
     font-size: 28px;
+    margin-top: 30px;
   }
 
   .feedback-users-details {
@@ -244,14 +247,17 @@
 
   .input-type,
   .message-type {
-    width: 100%;
+    width: 600px;
     height: auto;
     margin: 10px 0;
   }
+  .message-type{
+    height: 70px;
+  }
 
   .submit-get-btn {
-    width: 100%;
-    margin: 20px 0;
+    width: 652px;
+    margin: 0 auto;
   }
 
   .footer-section {
