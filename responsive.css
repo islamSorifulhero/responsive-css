@@ -343,9 +343,11 @@
   }
 
   .production-users {
-    margin: 20px;
+    /* margin: 20px;
     padding: 20px;
-    height: auto;
+    height: auto; */
+    margin: 20px 0px 0px 87px ;
+    width: 350px;
   }
 
   .porduction-title {
@@ -364,10 +366,11 @@
 
   .production-data p {
     font-size: 14px;
+    margin-top: 30px;
   }
 
   .feedback-section {
-    margin: 20px;
+    margin: 90px;
   }
 
   .feedback-section h3 {
@@ -383,13 +386,13 @@
   }
 
   .button-hover {
-    margin: 20px auto;
+    margin: -70px auto;
     display: block;
     width: 150px;
   }
 
   .better-section {
-    margin: 20px;
+    margin: 100px auto;
   }
 
   .better-section h1 {
@@ -429,6 +432,9 @@
     width: 100%;
 
   }
+  .label-title{
+    align-items: start;
+  }
 
   .input-type{
     width: 100%;
@@ -442,8 +448,8 @@
     margin: 10px 0;
   }
   .submit-get-btn {
-    width: 100%;
-    margin: 20px 0;
+    width: 360px;
+    margin: 0 auto;
   }
 
   .footer-section {
