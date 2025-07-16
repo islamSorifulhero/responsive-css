@@ -1,3 +1,83 @@
+/* large device */
+@media screen and (max-width: 992px){
+  .header{
+    height: 420px;
+  }
+  .logo-template{
+    font-size: 37px;
+  }
+  .action-section{
+    flex-direction: column;
+    
+  }
+  .action-left{
+    /* margin-top: 30px; */
+    margin: auto;
+  }
+  .action-title{
+    font-size: 62px;
+  }
+  .action-img img{
+    margin: -160px auto;
+    width: 800px;
+    height: 500px;
+  }
+  .production-users{
+    width: 750px;
+    margin: 200px auto;
+  }
+  .feedback-section{
+    margin: auto;
+  }
+  .feedback-users-details{
+    flex-direction: column;
+  }
+  .feedback-section h3{
+    font-size: 72px;
+    margin-top: -70px;
+  }
+  .reviewer-section{
+    margin: 0px 60px;
+  }
+  .button-hover{
+    font-size: 40px;
+    width: 240px;
+    height: 70px;
+    margin: 30px auto;
+  }
+  .better-section{
+    margin: 0 auto;
+  }
+  .touch-section{
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .input-type{
+    width: 480px;
+    height: 16px;
+  }
+  .message-type{
+    width: 480px;
+    height: 56px;
+    margin: 0 auto;
+  }
+  .submit-get-btn{
+    margin: 20px auto;
+    width: 540px;
+    height: 68px;
+    font-size: 30px;
+    display: block;
+  }
+  .footer-section{
+    margin: 0 auto;
+  }
+  .footer-links ul{
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+}
+
 /*vivo fon a responsive */
 
 

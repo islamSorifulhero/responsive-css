@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout grid</title>
+    <style>
+        .header,
+        .nav,
+        .main,
+        .sidebar,
+        .advertise,
+        .footer {
+            background-color: bisque;
+            padding: 5px;
+            border-radius: 5px;
+            border: 2px solid tomato;
+        }
+
+        .header {
+            grid-area: header;
+        }
+
+        .nav {
+            grid grid-area: nav;
+        }
+
+        .main {
+            grid-area: main;
+        }
+
+        .sidebar {
+            grid-area: sidebar;
+        }
+
+        .advertise {
+            grid-area: advertise;
+        }
+
+        .footer {
+            grid-area: footer;
+        }
+
+        .container {
+            display: grid;
+            gap: 20px;
+            grid-template-areas:
+                "header header header header"
+                "nav    main   main   sidebar"
+                "nav    main   main   advertise"
+                "footer footer footer footer";
+        }
+
+        @media screen and (max-width: 576px) {
+            .container {
+                grid-template-areas:
+                    "header"
+                    "nav"
+                    "main"
+                    "sidebar"
+                    "advertise"
+                    "footer"
+                ;
+            }
+        }
+
+        @media screen and (min-width: 576px) and (max-width: 992px) {
+            .container {
+                grid-template-areas:
+                    "header header header"
+                    "nav    nav    nav"
+                    "sidebar main  main"
+                    "advertise footer footer"
+                ;
+            }
+        }
+    </style>
+</head>
+
+<body class="container">
+    <header class="header">
+        <h1>The Header</h1>
+    </header>
+    <nav class="nav">
+        <u>
+            <li>Nav 1</li>
+            <li>Nav 1</li>
+            <li>Nav 2</li>
+            <li>Nav 3</li>
+        </u>
+    </nav>
+    <main class="main">
+        <article>
+            <h2>Main Article 1</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam architecto minima eos, non, tempore ab
+                veniam excepturi numquam eligendi accusantium a laboriosam omnis ducimus quasi ea et. Nesciunt, beatae
+                magni.</p>
+        </article>
+        <article>
+            <h2>Main Article 2</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam architecto minima eos, non, tempore ab
+                veniam
+                excepturi numquam eligendi accusantium a laboriosam omnis ducimus quasi ea et. Nesciunt, beatae magni.
+            </p>
+        </article>
+    </main>
+    <div class="sidebar">
+        <h2>Sidebar</h2>
+    </div>
+    <div class="advertise">
+        <h2>Advertise</h2>
+    </div>
+    <footer class="footer">
+        <h1>The Footer</h1>
+    </footer>
+</body>
+
+</html>
